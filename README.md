@@ -3,7 +3,7 @@ Brief description of the assesment:
 
 1.In this assesment, I created two project.
 
-*ApiTestProject1 is for the data transfer object class,helper class and swagger class,which includes 
+*BaseProject is for the data transfer object class,helper class and swagger class,which includes 
 some usefull methods used for the get requests.
 
 *SwaggerApiTestProject only includes the SwaggerTestClass,which I made all the api test methods 
