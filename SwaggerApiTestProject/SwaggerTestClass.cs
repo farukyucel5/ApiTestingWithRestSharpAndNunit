@@ -12,7 +12,7 @@ namespace SwaggerApiTestProject
     public class SwaggerTestClass
     {
         Swagger swagger=new Swagger();
-        String postEndPoint = "v2/user/createWithArray";
+        String PostEndPoint = "v2/user/createWithArray";
         
 
 
@@ -33,7 +33,7 @@ namespace SwaggerApiTestProject
 
              UserItems[] arr = new UserItems[] { dto1 };
 
-             RestResponse response =swagger.CreateUser(arr,postEndPoint);
+             RestResponse response =swagger.CreateUser(arr,PostEndPoint);
            
              Assert.That(response.StatusCode == HttpStatusCode.OK, Is.True);
              Assert.That((int)response.StatusCode==200, Is.True);
@@ -101,7 +101,7 @@ namespace SwaggerApiTestProject
 
             NegativeUserItems[] arr = new NegativeUserItems[] { dto1 };
 
-            RestResponse response = swagger.NegativeCreateUser(arr, postEndPoint);
+            RestResponse response = swagger.NegativeCreateUser(arr, PostEndPoint);
             //Console.WriteLine(response.Content);    
             Assert.That(response.StatusCode == HttpStatusCode.OK, Is.True);
             //Console.WriteLine((int)response.StatusCode);
