@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ApiTestProject1.Model
 {
 
-    public class CreateUserItems
+    public class UserItems
     {
         public int id { get; set; }
         public string username { get; set; }

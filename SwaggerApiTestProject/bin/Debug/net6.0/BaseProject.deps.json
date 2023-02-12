@@ -6,17 +6,18 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SwaggerApiTestProject/1.0.0": {
+      "BaseProject/1.0.0": {
         "dependencies": {
-          "BaseProject": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
+          "Newtonsoft.Json": "13.0.2",
+          "RestSharp": "108.0.3",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
-          "SwaggerApiTestProject.dll": {}
+          "BaseProject.dll": {}
         }
       },
       "coverlet.collector/3.1.2": {},
@@ -324,25 +325,11 @@
           }
         }
       },
-      "System.Reflection.Metadata/1.6.0": {},
-      "BaseProject/1.0.0": {
-        "dependencies": {
-          "Microsoft.NET.Test.Sdk": "17.3.2",
-          "NUnit": "3.13.3",
-          "NUnit.Analyzers": "3.3.0",
-          "NUnit3TestAdapter": "4.2.1",
-          "Newtonsoft.Json": "13.0.2",
-          "RestSharp": "108.0.3",
-          "coverlet.collector": "3.1.2"
-        },
-        "runtime": {
-          "BaseProject.dll": {}
-        }
-      }
+      "System.Reflection.Metadata/1.6.0": {}
     }
   },
   "libraries": {
-    "SwaggerApiTestProject/1.0.0": {
+    "BaseProject/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -444,11 +431,6 @@
       "sha512": "sha512-COC1aiAJjCoA5GBF+QKL2uLqEBew4JsCkQmoHKbN3TlOZKa2fKLz5CpiRQKDz0RsAOEGsVKqOD5bomsXq/4STQ==",
       "path": "system.reflection.metadata/1.6.0",
       "hashPath": "system.reflection.metadata.1.6.0.nupkg.sha512"
-    },
-    "BaseProject/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

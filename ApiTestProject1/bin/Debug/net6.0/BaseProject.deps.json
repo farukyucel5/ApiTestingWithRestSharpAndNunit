@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ApiTestProject1/1.0.0": {
+      "BaseProject/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "NUnit": "3.13.3",
@@ -17,7 +17,7 @@
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
-          "ApiTestProject1.dll": {}
+          "BaseProject.dll": {}
         }
       },
       "coverlet.collector/3.1.2": {},
@@ -329,7 +329,7 @@
     }
   },
   "libraries": {
-    "ApiTestProject1/1.0.0": {
+    "BaseProject/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

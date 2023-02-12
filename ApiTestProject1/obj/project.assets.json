@@ -1323,9 +1323,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject1.csproj",
-      "projectName": "ApiTestProject1",
-      "projectPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject1.csproj",
+      "projectUniqueName": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\BaseProject.csproj",
+      "projectName": "BaseProject",
+      "projectPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\BaseProject.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\obj\\",
       "projectStyle": "PackageReference",

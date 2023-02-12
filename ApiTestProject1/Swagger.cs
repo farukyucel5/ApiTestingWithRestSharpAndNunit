@@ -17,19 +17,9 @@ namespace ApiTestProject1
         {
             helper = new Helper();
         }
-        public Pets GetPets()
+        public RestResponse DeletingUser(String Endpoint)
         {
-            var client = helper.SetUrl("v2/pet/1230");
-            var request = helper.CreateGetRequest();
-            request.RequestFormat = DataFormat.Json;
-            var response = helper.GetResponse(client, request);
-            var pets = helper.GetContent<Pets>(response);
-            return pets;
-
-        }
-        public RestResponse DeletingStore()
-        {
-            var client = helper.SetUrl("v2/store/order/5");
+            var client = helper.SetUrl(Endpoint);
             var request = helper.CreateDeleteRequest();
             request.RequestFormat = DataFormat.Json;
             var response = helper.GetResponse(client, request);
@@ -39,17 +29,17 @@ namespace ApiTestProject1
         }
 
 
-        public CreateUserItems GetUserItems()
+        public UserItems GetUserItems(String endPoint)
         {
-            var client = helper.SetUrl("v2/user/JohnTony51");
+            var client = helper.SetUrl(endPoint);
             var request = helper.CreateGetRequest();
             request.RequestFormat = DataFormat.Json;
             var response = helper.GetResponse(client, request);
-            var pets = helper.GetContent< CreateUserItems>(response);
-            return pets;
+            var users = helper.GetContent< UserItems>(response);
+            return users;
         }
 
-        public RestResponse CreateUser(CreateUserItems[] arr,String endPoint)
+        public RestResponse CreateUser(UserItems[] arr,String endPoint)
         {
             var client = helper.SetUrl(endPoint);
             var request = helper.CreatePostRequest();
@@ -58,5 +48,15 @@ namespace ApiTestProject1
             var response = helper.GetResponse(client, request);
             return response;
          }
+
+        public RestResponse NegativeCreateUser(NegativeUserItems[] arr, String endPoint)
+        {
+            var client = helper.SetUrl(endPoint);
+            var request = helper.CreatePostRequest();
+            request.RequestFormat = DataFormat.Json;
+            request.AddJsonBody(arr);
+            var response = helper.GetResponse(client, request);
+            return response;
+        }
     }
 }
