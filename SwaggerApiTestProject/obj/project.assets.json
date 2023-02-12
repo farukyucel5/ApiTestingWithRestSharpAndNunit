@@ -395,7 +395,7 @@
           }
         }
       },
-      "BaseProject/1.0.0": {
+      "ApiTestProject/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -408,10 +408,10 @@
           "coverlet.collector": "3.1.2"
         },
         "compile": {
-          "bin/placeholder/BaseProject.dll": {}
+          "bin/placeholder/ApiTestProject.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BaseProject.dll": {}
+          "bin/placeholder/ApiTestProject.dll": {}
         }
       }
     }
@@ -1324,15 +1324,15 @@
         "version.txt"
       ]
     },
-    "BaseProject/1.0.0": {
+    "ApiTestProject/1.0.0": {
       "type": "project",
-      "path": "../ApiTestProject1/BaseProject.csproj",
-      "msbuildProject": "../ApiTestProject1/BaseProject.csproj"
+      "path": "../ApiTestProject1/ApiTestProject.csproj",
+      "msbuildProject": "../ApiTestProject1/ApiTestProject.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BaseProject >= 1.0.0",
+      "ApiTestProject >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -1367,8 +1367,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\BaseProject.csproj": {
-              "projectPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\BaseProject.csproj"
+            "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj": {
+              "projectPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj"
             }
           }
         }
