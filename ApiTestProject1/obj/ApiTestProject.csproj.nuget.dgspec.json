@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj": {}
+    "C:\\ZLenovo\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj": {}
   },
   "projects": {
-    "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj": {
+    "C:\\ZLenovo\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj",
+        "projectUniqueName": "C:\\ZLenovo\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj",
         "projectName": "ApiTestProject",
-        "projectPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\obj\\",
+        "projectPath": "C:\\ZLenovo\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\ApiTestProject.csproj",
+        "packagesPath": "C:\\Users\\faruk\\.nuget\\packages\\",
+        "outputPath": "C:\\ZLenovo\\Asoftware\\C#\\ApiTestWithCSharp\\ApiTestProject1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\faruk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

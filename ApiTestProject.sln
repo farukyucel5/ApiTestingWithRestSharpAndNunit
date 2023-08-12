@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseProject", "ApiTestProject1\BaseProject.csproj", "{F2344E9B-DFB4-4342-BA2B-2EA5B9E1D951}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestProject", "ApiTestProject1\ApiTestProject.csproj", "{F2344E9B-DFB4-4342-BA2B-2EA5B9E1D951}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerApiTestProject", "SwaggerApiTestProject\SwaggerApiTestProject.csproj", "{B5DE742F-6CEE-43E6-A87F-6A4BBC9345F9}"
 EndProject
