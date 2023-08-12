@@ -11,12 +11,8 @@ namespace ApiTestProject1
 {
     public class Swagger
     {
-        private Helper helper;
+        private  Helper helper = new();
 
-        public Swagger()
-        {
-            helper = new Helper();
-        }
         public RestResponse DeletingUser(String Endpoint)
         {
             var client = helper.SetUrl(Endpoint);
