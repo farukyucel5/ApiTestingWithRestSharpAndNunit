@@ -3,9 +3,6 @@ using ApiTestProject1.Model;
 using NUnit.Framework;
 using RestSharp;
 using System.Net;
-using System.Net.Http.Json;
-using System.Text;
-using System.Text.Unicode;
 
 namespace SwaggerApiTestProject
 {
@@ -31,7 +28,7 @@ namespace SwaggerApiTestProject
 
             };
 
-             UserItems[] arr = new UserItems[] { dto1 };
+             UserItems[] arr ={ dto1 };
 
              RestResponse response =swagger.CreateUser(arr,PostEndPoint);
            
