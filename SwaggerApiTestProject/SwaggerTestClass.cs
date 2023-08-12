@@ -8,7 +8,7 @@ namespace SwaggerApiTestProject
 {
     public class SwaggerTestClass
     {
-        Swagger swagger=new Swagger();
+        private Swagger swagger = new();
         String PostEndPoint = "v2/user/createWithArray";
         
 
